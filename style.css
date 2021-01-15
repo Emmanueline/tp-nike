@@ -117,6 +117,15 @@ button{
 
 .img-produit{
     margin-top: 30px;
+.save {
+    background-color: #FA5400;
+}
+
+.save:hover {
+    background-color: #db5614;
+}
+
+.choix-produit{
     width : 180px;
     display: block;
     margin-left: auto;
