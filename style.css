@@ -54,6 +54,7 @@ body {
   }
   #navbar ul {
     border-top: 3px solid #111111;
+    display: none;
   }
   button#nav-button {
     background-color: transparent;
@@ -322,6 +323,7 @@ hr{
     flex-direction: column;
     justify-content: center;
     width: 70%;
+    margin: auto;
 }
 
 .input {
@@ -332,6 +334,7 @@ hr{
     padding: 10px;
 }
 
-#checkbox {
+.checkbox:checked {
     margin: 10px 0 10px 0;
+    content: mettre img;
 }
