@@ -190,8 +190,11 @@ h3{
 }
 
 select{
-    display: block;
+    display: inline-block;
     margin : auto;
+    border: none;
+    margin-left: 50px;
+    margin-bottom: 20px;
 }
 
 .carousel-items{
