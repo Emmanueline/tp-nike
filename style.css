@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.parent-logo {
+    position: relative;
+}
+
+.parent-logo {
+    position: absolute;    
+    left: 20px;
+    top: 20px;
+}
+
+.logo {
+    width : 60px;
+}
+
+#navbar {
+    width: 100%;
+    position: absolute;
+    top: 143px;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+  }
+  #navbar ul {
+    border-top: 3px solid #111111;
+  }
+  button#nav-button {
+    background-color: transparent;
+    border: 0;
+  }
+  button#nav-button i {
+    font-size: 1.75rem;
+    color: #111111;
+  }
+
+.infos{
+    display: flex;
+    background-color: #f5f5f5;
+    height: 70px;
+    margin-top: 10px;
+}
+
+.info-1{
+    font-size: 12px;
+    margin: auto;
+}
+
+.more{
+    color: #111111;
+    text-decoration: none;
+}
+
+.more:hover{
+    font-weight: bold;
+}
+
+.carousel-items{
+    display: flex;
+    overflow-x: scroll;
+    padding: 1rem 0;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-item{
+    flex: 1 0 250px;
+    margin-left: 1rem;
+    scroll-snap-align: start;
+    list-style-type: none;
+}
+
+.carousel-img{
+    width: 180px;
+}
+
+footer{
+    background-color: #111111;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+hr{
+    margin: auto;
+    color: #7E7E7E;
+    width: 90%;
+    height: 0.3px;
+}
+
+.picto-1, .picto-2, .picto-3, .picto-4{
+    width : 30px;
+    height: 30px;
+}
+
+.picto-1:hover{
+    width: 30px;
+    height: 30px;
+    background-image : url(images/pictogramme-twitter-blanc.png);
+}
+
+.picto-2:hover{
+    width: 30px;
+    height: 30px;
+    background-image : url(images/pictogramme-facebook-blanc.png);
+}
+
+.picto-3:hover{
+    width: 30px;
+    height: 30px;
+    background-image : url(images/pictogramme-youtube-blanc.png);
+}
+
+.picto-4:hover{
+    width: 30px;
+    height: 30px;
+    background-image : url(images/pictogramme-instagram-blanc.png);
+}
+
+.others{
+    color: #7E7E7E;
+    font-size: 10px;
+    font-family: 'Barlow Condensed';
+    letter-spacing: 0.8px;
+    text-transform: none;
+    font-weight: 100;
+}
