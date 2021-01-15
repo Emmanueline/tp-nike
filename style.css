@@ -303,3 +303,18 @@ hr{
     background: #111111;
     cursor: pointer;
 }
+
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+
+.input {
+    border-color: black;
+    border: solid 1.5px;
+    justify-content: center;
+
+}
