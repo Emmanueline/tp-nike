@@ -193,6 +193,7 @@ select{
 
 .carousel-items{
     display: flex;
+    flex-direction: row;
     overflow-x: scroll;
     padding: 1rem 0;
     scroll-snap-type: x mandatory;
@@ -207,6 +208,10 @@ select{
 
 .carousel-img{
     width: 180px;
+}
+
+.infos-recap{
+    line-height: 1.5px;
 }
 
 footer{
