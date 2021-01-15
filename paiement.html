@@ -62,15 +62,46 @@
         </header>
         <!--Contenu-->
             <h1>Nike Air Force 1 '07</h1>
-            <!--Carousel d'Images-->
-            <h2>Vous aimerez peut-être aussi</h2>
-            <ul class="carousel-items">
-                <li class="carousel-item">
-                    <img src="images/chaussure-air-force-1-07-lv8-pour-JZB0dZ.jpg" class="carousel-img"/>
-                    <img src="images/chaussure-air-force-1-07-pour-ZVdbrM.jpg" class="carousel-img"/>
-                    <img src="images/chaussure-blazer-low-pour-JtblVl.jpg" class="carousel-img"/>
-                </li>
-            </ul>
+            <main>
+                <h2>Options de livraison</h2>
+                    <form action="">
+                        <input type="text" name="name" placeholder="Nom" required>
+                        <input type="text" name="name" placeholder="Prénom" required>
+                        <input type="email" name="email" placeholder="E-mail" required>
+                        <input type="tel" name="phone" placeholder="Téléphone" required>
+                        <input type="address" name="address" placeholder="Adresse" required>
+                        <input type="tel" name="phone" placeholder="Code Postal" required>
+                        <input type="tel" name="phone" placeholder="Ville" required>
+                        <input type="tel" name="phone" placeholder="Téléphone" required>
+                        <input type="tel" name="phone" placeholder="Pays" required>
+                    </form>
+
+                        <h2>Paiement</h2>
+                        <div>
+                            <input type="radio" id="paypal" name="drone" value="Paypal">
+                            <label for="Paypal">Paypal</label>
+                          </div>
+                          
+                          <div>
+                            <input type="radio" id="CB" name="drone" value="CB" checked>
+                            <label for="CB">Carte bleue</label>
+                          </div>
+
+                          <form action="">
+                              <input type="text" name="name" placeholder="Nom du détenteur de la carte" required>
+                              <input type="number" name="number" placeholder="Numéro de la carte" required>
+                              <input type="date" name="date" placeholder="Date d'expiration" required>
+                              <input type="number" name="number" placeholder="Code de sécurité">
+                              <div>
+                                <input type="checkbox" name="condition" checked>
+                                <label for="condition">Adresse de facturation identique à l'adresse de livraison</label>
+                              </div>
+                          </form>
+
+                          <button class="save">Enregistrer et continuer</button>
+
+
+            </main>
         <!--Bas de page-->
         <footer>
             <div>
