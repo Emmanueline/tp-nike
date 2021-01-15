@@ -113,6 +113,9 @@ button{
     height: 50px;
     right: 10px;
     left: 10px;
+    display: block;
+    margin : auto;
+    max-width: 500px;
 }
 
 .img-produit{
@@ -149,8 +152,12 @@ h2{
 }
 
 input{
+    display: inline-block;
+}
+
+select{
     display: block;
-    margin: 0 auto;
+    margin : auto;
 }
 
 .carousel-items{
