@@ -115,6 +115,14 @@ button{
     left: 10px;
 }
 
+.save {
+    background-color: #FA5400;
+}
+
+.save:hover {
+    background-color: #db5614;
+}
+
 .choix-produit{
     width : 180px;
     justify-content: center;
@@ -183,4 +191,14 @@ hr{
     letter-spacing: 0.8px;
     text-transform: none;
     font-weight: 100;
+}
+
+#checkbox {
+    background: #111111;
+    cursor: pointer;
+}
+
+#paiement {
+    background: #111111;
+    cursor: pointer;
 }
