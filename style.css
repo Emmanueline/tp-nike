@@ -25,6 +25,25 @@ body {
     width : 60px;
 }
 
+.parent-picto
+{
+    position: relative;
+}
+
+.picto-1{
+    position: absolute;
+    right: 60px;
+    top: 10px;
+    font-size: 27px;
+}
+
+.picto-2{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 27px;
+}
+
 #navbar {
     width: 100%;
     position: absolute;
@@ -49,7 +68,7 @@ body {
     display: flex;
     background-color: #f5f5f5;
     height: 70px;
-    margin-top: 10px;
+    margin-top: 60px;
 }
 
 .info-1{
@@ -64,6 +83,52 @@ body {
 
 .more:hover{
     font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    font-weight: 100;
+}
+
+.recap{
+    color: #7E7E7E;
+    font-size: 20px;
+}
+
+p{
+    text-align: center;
+}
+
+.prix-global{
+    font-size: 20px;
+}
+
+button{
+    background-color:#111111;
+    border-radius: 40px;
+    color: #f5f5f5;
+    font-size: 18px;
+    border: none;
+    width: 90%;
+    height: 50px;
+    right: 10px;
+    left: 10px;
+}
+
+.choix-produit{
+    width : 180px;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+    font-weight: 100;
+}
+
+
+input{
+    display: block;
+    margin: 0 auto;
 }
 
 .carousel-items{
@@ -100,33 +165,15 @@ hr{
     height: 0.3px;
 }
 
-.picto-1, .picto-2, .picto-3, .picto-4{
+.picto-rs{
     width : 30px;
     height: 30px;
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
-
-.picto-1:hover{
-    width: 30px;
-    height: 30px;
-    background-image : url(images/pictogramme-twitter-blanc.png);
-}
-
-.picto-2:hover{
-    width: 30px;
-    height: 30px;
-    background-image : url(images/pictogramme-facebook-blanc.png);
-}
-
-.picto-3:hover{
-    width: 30px;
-    height: 30px;
-    background-image : url(images/pictogramme-youtube-blanc.png);
-}
-
-.picto-4:hover{
-    width: 30px;
-    height: 30px;
-    background-image : url(images/pictogramme-instagram-blanc.png);
+.picto-rs:hover{
+	opacity: .5;
 }
 
 .others{
