@@ -143,6 +143,37 @@ h2{
     font-weight: 100;
 }
 
+.dark-title{
+    background-color: #111111;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 100;
+    font-size: 1.2rem;
+    height: 45px;
+    display: block;
+    margin : auto;
+    max-width: 500px;
+    padding-left: 25px;
+    padding-top: 10px;
+    max-width: 435px;
+    margin-top: 30px;
+}
+
+h3{
+    color: #111111;
+    text-transform: uppercase;
+    font-weight: 100;
+    border: #111111 1px solid;
+    height: 45px;
+    display: block;
+    margin : auto;
+    max-width: 500px;
+    padding-left: 25px;
+    padding-top: 10px;
+    max-width: 435px;
+}
+
 .total{
     font-weight: 900;
     font-family: 'Barlow Condensed', sans-serif;
