@@ -216,3 +216,13 @@ hr{
     text-decoration: none;
     color: #7E7E7E;
 }
+
+#checkbox {
+    background: #111111;
+    cursor: pointer;
+}
+
+#paiement {
+    background: #111111;
+    cursor: pointer;
+}
